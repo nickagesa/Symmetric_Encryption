@@ -3,30 +3,28 @@
 This is a simple Python project to **encrypt** and **decrypt** files using symmetric encryption with the `cryptography` library's Fernet module.
 
 ## Results
-<img src="https://github.com/user-attachments/assets/6573372c-3f16-4ea2-a473-25ff39619d7f" width="500" height="400"/>
+<img src="https://github.com/user-attachments/assets/6573372c-3f16-4ea2-a473-25ff39619d7f" width="550" height="400"/>
 
 *Ref 1: Original Document*
 
-<img src="https://github.com/user-attachments/assets/c349cf19-edfb-457e-a197-cbc0d5b296e8" width="400" height="200"/>
+<img src="https://github.com/user-attachments/assets/c349cf19-edfb-457e-a197-cbc0d5b296e8" width="450" height="200"/>
 
 *Ref 2: Generated Encryption Key*
 
-<img src="https://github.com/user-attachments/assets/179e942c-d02d-414d-95d2-f462160b68f6" width="500" height="400"/>
+<img src="https://github.com/user-attachments/assets/179e942c-d02d-414d-95d2-f462160b68f6" width="550" height="400"/>
 
 *Ref 3: Encrypted Document*
 
-<img src="https://github.com/user-attachments/assets/ed1c3618-1cc1-42d1-933d-3e8745f9d9c8" width="500" height="400"/>
+<img src="https://github.com/user-attachments/assets/ed1c3618-1cc1-42d1-933d-3e8745f9d9c8" width="550" height="400"/>
 
 *Ref 4: Decrypted Document*
 
-
-
 You can install the cryptography library using pip:
-```sh
-pip install cryptography
+  ```sh
+  pip install cryptography
 
-## Usage
-1. **Encrypting a file**
+## Usage 
+1. Encrypting a file
   Run the encryption.py script to encrypt your target file:
   ```sh
   python encryption.py
