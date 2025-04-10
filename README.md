@@ -11,7 +11,7 @@ This is a simple Python project to **encrypt** and **decrypt** files using symme
 
 *Ref 2: Generated Encryption Key*
 
-<img src="https://github.com/user-attachments/assets/179e942c-d02d-414d-95d2-f462160b68f6" width="610" height="310"/>
+<img src="https://github.com/user-attachments/assets/179e942c-d02d-414d-95d2-f462160b68f6" width="590" height="310"/>
 
 *Ref 3: Encrypted Document*
 
