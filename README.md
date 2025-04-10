@@ -1,9 +1,9 @@
 # File Encryption and Decryption Project 🔐
 
 This is a simple Python project to **encrypt** and **decrypt** files using symmetric encryption with the `cryptography` library's Fernet module.
-
+ 
 ## Results
-<img src="https://github.com/user-attachments/assets/6573372c-3f16-4ea2-a473-25ff39619d7f" width="550" height="400"/>
+<img src="https://github.com/user-attachments/assets/6573372c-3f16-4ea2-a473-25ff39619d7f" width="550" height="300"/>
 
 *Ref 1: Original Document*
 
@@ -11,11 +11,11 @@ This is a simple Python project to **encrypt** and **decrypt** files using symme
 
 *Ref 2: Generated Encryption Key*
 
-<img src="https://github.com/user-attachments/assets/179e942c-d02d-414d-95d2-f462160b68f6" width="550" height="400"/>
+<img src="https://github.com/user-attachments/assets/179e942c-d02d-414d-95d2-f462160b68f6" width="550" height="300"/>
 
 *Ref 3: Encrypted Document*
 
-<img src="https://github.com/user-attachments/assets/ed1c3618-1cc1-42d1-933d-3e8745f9d9c8" width="550" height="400"/>
+<img src="https://github.com/user-attachments/assets/ed1c3618-1cc1-42d1-933d-3e8745f9d9c8" width="550" height="300"/>
 
 *Ref 4: Decrypted Document*
 
