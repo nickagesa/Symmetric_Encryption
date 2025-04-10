@@ -28,19 +28,17 @@ This is a simple Python project to **encrypt** and **decrypt** files using symme
    Run the encryption.py script to encrypt your target file:
    ```sh
    python encryption.py
-
-This will:
-- Generate an encryption key and save it to key.key.
-- Encrypt the specified file and save it as <filename>.encrypted.
+ This will:
+ - Generate an encryption key and save it to key.key.
+ - Encrypt the specified file and save it as <filename>.encrypted.
   
 3. **Decrypting a file**:
    Run the decryption.py script to decrypt an encrypted file:
    ```sh
    python decryption.py
-
-This will:
-- Read the encryption key from key.key.
-- Decrypt the encrypted file and save the output.
+ This will:
+ - Read the encryption key from key.key.
+ - Decrypt the encrypted file and save the output.
 
 ⚠️ **Important**:
 Keep the key.key file safe! Without it, you cannot decrypt your files.
