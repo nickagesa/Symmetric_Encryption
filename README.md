@@ -1,4 +1,4 @@
-# File Encryption and Decryption Project 🔐
+# Symmetric Encryption🔐
 
 This is a simple Python project to **encrypt** and **decrypt** files using symmetric encryption with the `cryptography` library's Fernet module.
  
