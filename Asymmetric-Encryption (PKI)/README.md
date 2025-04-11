@@ -1,7 +1,15 @@
 # ASymmetric Encryption🔐
 
 Asymmetric encryption, also known as public-key cryptography, uses a pair of keys: a public key to encrypt data and a private key to decrypt it. In learning scenarios, it helps demonstrate how two parties can securely exchange messages by sharing their public keys while keeping their private keys secret. Each sender encrypts messages using the recipient’s public key, ensuring that only the recipient can decrypt them. 
+
+Simple Example:
+Let’s say it’s you and Alice.
+- You give Alice your public key — so she can encrypt messages to you.
+- Alice gives you her public key — so you can encrypt messages to her.
+✅ This way, both sides can securely send encrypted messages to each other.
+
 In real-world applications, asymmetric encryption is widely used in securing web traffic (like HTTPS), email encryption, and digital signatures, providing both confidentiality and authenticity in communication over untrusted networks.
+
 ## Results
 <img src="https://github.com/user-attachments/assets/28069cc8-fbcb-4838-b619-142eabe69a2d" width="400" height="150"/>
 
@@ -21,28 +29,25 @@ In real-world applications, asymmetric encryption is widely used in securing web
    ```sh
    pip install rsa
    
-2. **Encrypting a file***
-   Run the encryption.py script to encrypt your target file:
+2. **Generate Public & Private Keys***
    ```sh
-   python encryption.py
+   python Generate_Keys.py
  This will:
- - Generate an encryption key and save it to key.key.
- - Encrypt the specified file and save it as <filename>.encrypted.
+ - Generate encryption keys and save them as public_key.pem & private_key.pem.
+ - Your private key is secreat but you can share your public key.
   
-3. **Decrypting a file**:
-   Run the decryption.py script to decrypt an encrypted file:
+3. **Encrypt & Decrypt a message**:
    ```sh
-   python decryption.py
+   python Encrypt_&_Decrypt_Message.py
  This will:
- - Read the encryption key from key.key.
- - Decrypt the encrypted file and save the output.
+ - Load both keys, use the public key to encrypt & private to decrypt message.
+ 
 
 ⚠️ **Important**:
-Keep the key.key file safe! Without it, you cannot decrypt your files.
+Keep the private_key.pem file safe! Without it, you cannot decrypt your files.
 
 ### Notes
-- Every time you run encryption.py, a new key is generated. If you want to encrypt multiple files with the same key, save and reuse your key.key.
-- Always test decryption to make sure your process works before deleting original files.
+- Every time you run Generate_Keys.py, 2 new key are generated. If you want to encrypt multiple files with the same key, save and reuse your public_key.pem & private_key.pem.
 
 ## License
 This project is open-source and free to use.
