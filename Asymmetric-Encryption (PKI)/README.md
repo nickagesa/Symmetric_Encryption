@@ -6,6 +6,7 @@ Simple Example:
 Let’s say it’s you and Alice.
 - You give Alice your public key — so she can encrypt messages to you.
 - Alice gives you her public key — so you can encrypt messages to her.
+
 ✅ This way, both sides can securely send encrypted messages to each other.
 
 In real-world applications, asymmetric encryption is widely used in securing web traffic (like HTTPS), email encryption, and digital signatures, providing both confidentiality and authenticity in communication over untrusted networks.
