@@ -19,7 +19,7 @@ In real-world applications, asymmetric encryption is widely used in securing web
 
 *Ref 2: Generated Private Key*
 
-<img src="https://github.com/user-attachments/assets/343cadde-e845-4a48-9464-3ffd517bbcc2" width="600" height="100"/>
+<img src="https://github.com/user-attachments/assets/343cadde-e845-4a48-9464-3ffd517bbcc2" width="620" height="100"/>
 
 *Ref 3: Encrypted and decrypted Messages*
 
