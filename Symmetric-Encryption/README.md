@@ -25,9 +25,9 @@ This is a simple Python project to **encrypt** and **decrypt** files using symme
    pip install cryptography
    
 2. **Encrypting a file***
-   Run the encryption.py script to encrypt your target file:
+   Run the Generate_key_&_Encrypt.py script to encrypt your target file:
    ```sh
-   python encryption.py
+   python Generate_key_&_Encrypt.py
  This will:
  - Generate an encryption key and save it to key.key.
  - Encrypt the specified file and save it as <filename>.encrypted.
